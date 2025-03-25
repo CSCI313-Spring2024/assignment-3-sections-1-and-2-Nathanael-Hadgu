@@ -8,9 +8,14 @@ export const routes: Routes = [
         component: HomeComponent,
         title: 'Home page',
     },
+    // {
+    //     path: 'details',
+    //     component: DetailsComponent,
+    //     title: 'Home Details'
+    // },
     {
-        path: 'details',
+        path: 'details/:id',
         component: DetailsComponent,
         title: 'Home Details'
-    },
+    }
 ];
