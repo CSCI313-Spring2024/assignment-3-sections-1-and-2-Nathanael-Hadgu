@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
-import { HousingLocation } from '../housing-location';
+import { HousingLocation } from '../housinglocation';
 
 @Component({
   selector: 'app-home',
